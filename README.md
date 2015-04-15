@@ -1,5 +1,5 @@
-        K810 Function Key Switcher for MacOSX
-        =====================================
+        Logitech K810 Function Key Switcher for Mac OS X
+        ================================================
 
 About
 ======
@@ -12,4 +12,14 @@ setuid bit set before launching.
 
 Feel free to work with it and use as needed.
 
+Compilation
+===========
 
+```
+xcodebuild -configuration Release
+```
+
+Releases
+========
+
+https://github.com/niieani/k810_fkeys_mac/releases
