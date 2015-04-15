@@ -33,9 +33,14 @@ To turn the fix off:
 The OS X port was made by Przemysław Kamiński.
 This build was compiled by Bazyli Brzóska.
 
-Compilation
-===========
+Compilation with XCode
+======================
+
+ * Clone the repository
+ * Install XCode
+ * Start terminal in the directory of the repository
 
 ```
+cd ./xcode
 xcodebuild -configuration Release
 ```
