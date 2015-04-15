@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3258CA1ADF090A00D76DCE /* hid.c in Sources */ = {isa = PBXBuildFile; fileRef = FA3258C71ADF090A00D76DCE /* hid.c */; settings = {COMPILER_FLAGS = "-Ihidapi"; }; };
+		FA3258CB1ADF090A00D76DCE /* k810.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA3258C91ADF090A00D76DCE /* k810.cpp */; settings = {COMPILER_FLAGS = "-Ihidapi"; }; };
+		FA3258CD1ADF092C00D76DCE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3258CC1ADF092C00D76DCE /* CoreFoundation.framework */; };
+		FA3258CF1ADF093300D76DCE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3258CE1ADF093300D76DCE /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA3258BB1ADF08CF00D76DCE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA0D4CB51ADF0E550070A17A /* xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xcode; sourceTree = "<group>"; };
+		FA3258BD1ADF08CF00D76DCE /* k810-fn-fix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "k810-fn-fix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3258C71ADF090A00D76DCE /* hid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hid.c; sourceTree = "<group>"; };
+		FA3258C81ADF090A00D76DCE /* hidapi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hidapi; sourceTree = "<group>"; };
+		FA3258C91ADF090A00D76DCE /* k810.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = k810.cpp; sourceTree = "<group>"; };
+		FA3258CC1ADF092C00D76DCE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FA3258CE1ADF093300D76DCE /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3258BA1ADF08CF00D76DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3258CF1ADF093300D76DCE /* IOKit.framework in Frameworks */,
+				FA3258CD1ADF092C00D76DCE /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3258B41ADF08CF00D76DCE = {
+			isa = PBXGroup;
+			children = (
+				FA3258CE1ADF093300D76DCE /* IOKit.framework */,
+				FA3258CC1ADF092C00D76DCE /* CoreFoundation.framework */,
+				FA3258BF1ADF08CF00D76DCE /* k810-fn-fix */,
+				FA3258BE1ADF08CF00D76DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3258BE1ADF08CF00D76DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3258BD1ADF08CF00D76DCE /* k810-fn-fix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3258BF1ADF08CF00D76DCE /* k810-fn-fix */ = {
+			isa = PBXGroup;
+			children = (
+				FA0D4CB51ADF0E550070A17A /* xcode */,
+				FA3258C71ADF090A00D76DCE /* hid.c */,
+				FA3258C81ADF090A00D76DCE /* hidapi */,
+				FA3258C91ADF090A00D76DCE /* k810.cpp */,
+			);
+			name = "k810-fn-fix";
+			path = ..;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3258BC1ADF08CF00D76DCE /* k810-fn-fix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3258C41ADF08CF00D76DCE /* Build configuration list for PBXNativeTarget "k810-fn-fix" */;
+			buildPhases = (
+				FA3258B91ADF08CF00D76DCE /* Sources */,
+				FA3258BA1ADF08CF00D76DCE /* Frameworks */,
+				FA3258BB1ADF08CF00D76DCE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "k810-fn-fix";
+			productName = "k810-fn-fix";
+			productReference = FA3258BD1ADF08CF00D76DCE /* k810-fn-fix */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3258B51ADF08CF00D76DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bazyli Brzóska";
+				TargetAttributes = {
+					FA3258BC1ADF08CF00D76DCE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = FA3258B81ADF08CF00D76DCE /* Build configuration list for PBXProject "k810-fn-fix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA3258B41ADF08CF00D76DCE;
+			productRefGroup = FA3258BE1ADF08CF00D76DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3258BC1ADF08CF00D76DCE /* k810-fn-fix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3258B91ADF08CF00D76DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3258CA1ADF090A00D76DCE /* hid.c in Sources */,
+				FA3258CB1ADF090A00D76DCE /* k810.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA3258C21ADF08CF00D76DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA3258C31ADF08CF00D76DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA3258C51ADF08CF00D76DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_GROUP = "$(GROUP)";
+				INSTALL_MODE_FLAG = "u+w,go-w,a+rX";
+				INSTALL_OWNER = "$(USER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA3258C61ADF08CF00D76DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_GROUP = "$(GROUP)";
+				INSTALL_MODE_FLAG = "u+w,go-w,a+rX";
+				INSTALL_OWNER = "$(USER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3258B81ADF08CF00D76DCE /* Build configuration list for PBXProject "k810-fn-fix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3258C21ADF08CF00D76DCE /* Debug */,
+				FA3258C31ADF08CF00D76DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3258C41ADF08CF00D76DCE /* Build configuration list for PBXNativeTarget "k810-fn-fix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3258C51ADF08CF00D76DCE /* Debug */,
+				FA3258C61ADF08CF00D76DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3258B51ADF08CF00D76DCE /* Project object */;
+}

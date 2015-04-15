@@ -22,3 +22,5 @@
 
 xcode/build
 .DS_Store
+xcode/*.xcodeproj/project.xcworkspace
+xcode/*.xcodeproj/xcuserdata
